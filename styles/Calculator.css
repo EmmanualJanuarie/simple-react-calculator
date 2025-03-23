@@ -1,0 +1,68 @@
+html{
+    background-color: white;
+  }
+
+.App{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 17%;
+    flex-wrap: wrap
+}
+
+#result_id{
+    border: 2px dotted gray;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.App input::placeholder{
+    color: black;
+}
+  
+  * {
+    font-family: sans-serif;
+  }
+  input,
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input {
+    display: block;
+    margin-bottom: 20px;
+  }
+  button {
+    border: 1px solid gray;
+    background: whitesmoke;
+    margin-right: 5px;
+  }
+  button:nth-last-child(2),
+  button:nth-last-child(1) {
+    background: tomato;
+    color: white;
+  }
+
+  h1{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+
+.card{
+  background-color: white;
+}
+  
+  
+  @media screen and (max-width:900px) {
+    .App{
+      display: flex;
+      width:100%;
+    }
+  }
